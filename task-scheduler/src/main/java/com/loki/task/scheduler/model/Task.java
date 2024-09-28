@@ -4,15 +4,22 @@ import java.util.UUID;
 
 public class Task {
     private String name;
-    private UUID id;
+    private long startTime;
+    private long endTime;
+
 
     public Task(String name){
         this.name = name;
-        this.id = UUID.randomUUID();
     }
 
     public String getName(){
         return this.name;
+    }
+    public long getStartTime(){
+        return this.startTime;
+    }
+    public long getEndTime(){
+        return this.endTime;
     }
 
 }
