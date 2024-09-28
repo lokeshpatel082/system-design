@@ -9,9 +9,9 @@ The project is organized in a modular fashion using Maven's multi-module archite
 ### Current Modules
 Coming Soon ...
 
-[//]: # (1. **Elevator System**:)
+1. **Snake-Ladder Game**:
 
-[//]: # (    - A simulation of an elevator management system that handles multiple requests, moves between floors, and manages elevator states efficiently.)
+    - A simulation of an snake and ladder game.
 
 [//]: # ()
 [//]: # (2. **Parking Lot System**:)
