@@ -1,25 +1,34 @@
 package com.loki.task.scheduler.model;
+import lombok.Setter;
 
-import java.util.UUID;
+import java.time.LocalDateTime;
 
 public class Task {
-    private String name;
-    private long startTime;
-    private long endTime;
+    private final String name;
+    @Setter
+    private Integer id;
+    @Setter
+    private LocalDateTime startTime;
+    @Setter
+    private LocalDateTime endTime;
 
-
-    public Task(String name){
+    public Task(String name, LocalDateTime startTime, LocalDateTime endTime){
         this.name = name;
+        this.startTime = startTime;
+        this.endTime = endTime;
     }
-
     public String getName(){
         return this.name;
     }
-    public long getStartTime(){
+    public LocalDateTime getStartTime(){
         return this.startTime;
     }
-    public long getEndTime(){
+    public LocalDateTime getEndTime(){
         return this.endTime;
+    }
+
+    public Integer getId(){
+        return this.id;
     }
 
 }
