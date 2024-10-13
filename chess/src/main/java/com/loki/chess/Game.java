@@ -28,9 +28,11 @@ public class Game {
         while(status == GameStatus.IN_PROGRESS){
             if(whiteTurn) {
                 // create move for player1(white)
+                // makeMove(new Move(startCell,endCell) player1);
             }
             else{
                 // create move for player2(black)
+                // makeMove(new Move(startCell,endCell) player2);
             }
 
         }
