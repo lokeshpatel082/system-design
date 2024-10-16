@@ -7,10 +7,10 @@
   <modules>
     <module>cab-booking</module>
     <module>movie-ticket-booking</module>
-    <module>chess</module>
     <module>elevator</module>
     <module>snake-ladder</module>
     <module>task-scheduler</module>
+    <module>splitwise</module>
   </modules>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
