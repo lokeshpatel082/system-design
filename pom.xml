@@ -6,8 +6,6 @@
   <packaging>pom</packaging>
   <modules>
     <module>cab-booking</module>
-    <module>movie-ticket-booking</module>
-    <module>chess</module>
     <module>elevator</module>
     <module>snake-ladder</module>
     <module>task-scheduler</module>
