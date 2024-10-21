@@ -7,11 +7,13 @@ This is a **Maven-based Java project** containing various **low-level design** i
 The project is organized in a modular fashion using Maven's multi-module architecture. Each module represents a specific design problem and contains all necessary classes and logic for that system.
 
 ### Current Modules
-Coming Soon ...
 
 1. **Snake-Ladder Game**:
 
     - A simulation of an snake and ladder game.
+   
+2. Cache System
+   - Cache implementation using LRU eviction policy.
 
 
 2. **Task-Scheduler**:
