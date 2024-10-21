@@ -1,4 +1,4 @@
-package com.loki.cache.algorithms;
+package com.loki.algorithms;
 
 import lombok.Getter;
 

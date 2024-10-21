@@ -1,4 +1,4 @@
-package com.loki.cache.algorithms;
+package com.loki.algorithms;
 
 public class DoublyLinkedList<E> {
     DoublyLinkedListNode<E> dummyHead;
