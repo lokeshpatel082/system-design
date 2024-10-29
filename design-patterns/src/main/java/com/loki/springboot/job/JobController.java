@@ -5,24 +5,25 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 
 public class JobController {
-    private List<Job> jobs;
-    public JobController(){
-        this.jobs = new ArrayList<>();
+
+    private final JobService jobService;
+
+    public JobController(JobService jobService) {
+        this.jobService = jobService;
     }
 
     @GetMapping("/jobs")
     public List<Job> findAll(){
-        return this.jobs;
+        return this.jobService.findAll();
     }
     @PostMapping("/jobs/create")
     public String createJob(@RequestBody Job job){
-        this.jobs.add(job);
+        this.jobService.createJob(job);
         return "Job added successfully";
 
     }

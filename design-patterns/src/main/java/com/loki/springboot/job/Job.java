@@ -1,10 +1,8 @@
 package com.loki.springboot.job;
 
-import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
 public class Job {
-    private String id;
+    private Long id;
     private String title;
     private String description;
     private long salary;
@@ -12,13 +10,13 @@ public class Job {
     private String location;
 
     public Job(){
-
+        // jackson library to be able to create instance of this classs
     }
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
