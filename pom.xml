@@ -4,7 +4,8 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.3.5</version>
-    <relativePath/> <!-- lookup parent from repository -->
+    <relativePath/>
+    <!-- lookup parent from repository -->
   </parent>
   <groupId>com.loki</groupId>
   <artifactId>system-design</artifactId>
@@ -15,6 +16,7 @@
     <module>elevator</module>
     <module>snake-ladder</module>
     <module>task-scheduler</module>
+    <module>logger</module>
   </modules>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
