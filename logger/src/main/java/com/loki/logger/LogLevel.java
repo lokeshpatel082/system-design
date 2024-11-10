@@ -10,7 +10,8 @@ public enum LogLevel {
 
     @Getter
     private final int value;
-    LogLevel(int logLevel){
+
+    LogLevel(int logLevel) {
         this.value = logLevel;
     }
 }
