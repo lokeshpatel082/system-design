@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println(fs.ls().toString());
         fs.cd("/a/b");
-        System.out.println(fs.ls("a/b/d").toString());
+        System.out.println(fs.ls("/a/b").toString());
 
     }
 }

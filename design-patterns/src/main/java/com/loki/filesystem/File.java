@@ -23,6 +23,10 @@ class File {
         this.files.put(name, new File(name, isDir));
     }
 
+    public void add(File file){
+        this.files.put(file.name, file);
+    }
+
     public List<String> getFileNames(){
         List<String> directoryList = new ArrayList<>();
         this.files.forEach((fileName, f) -> directoryList.add(fileName));
