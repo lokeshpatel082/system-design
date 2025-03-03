@@ -13,10 +13,13 @@ Coming Soon ...
 
     - A simulation of an snake and ladder game.
 
-[//]: # ()
-[//]: # (2. **Parking Lot System**:)
 
-[//]: # (    - A parking lot management system to handle vehicle parking, un-parking, and slot allocation, designed to optimize space utilization.)
+2. **Task-Scheduler**:
+    - 
+3. **Logger:**
+    - Design a structured logging framework for an application.
+    - Implement different log levels (INFO, DEBUG, ERROR, etc.).
+    - Support log rotation and persistence (file-based or database).
 
 ## Getting Started
 
