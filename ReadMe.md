@@ -15,7 +15,8 @@ Coming Soon ...
 
 
 2. **Task-Scheduler**:
-    - 
+    - Design a scheduling system to execute tasks at predefined intervals.
+    - Implement task creation, execution, and cancellation mechanisms.
 3. **Logger:**
     - Design a structured logging framework for an application.
     - Implement different log levels (INFO, DEBUG, ERROR, etc.).
