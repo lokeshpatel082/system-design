@@ -15,6 +15,7 @@
     <module>snake-ladder</module>
     <module>task-scheduler</module>
     <module>logger</module>
+    <module>Parking lot</module>
   </modules>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
