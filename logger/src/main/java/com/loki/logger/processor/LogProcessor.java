@@ -18,7 +18,7 @@ public abstract class LogProcessor {
     }
     public void logMessage(LogLevel logLevel, String message, LogObservable logObservable) {
         if(this.level.equals(logLevel) && logLevel.getValue() <= Logger.getLogLevel().getValue()){
-            Log log = new Log(this.level.name() + ": "+ message, LocalDateTime.now());
+            Log log = new Log("["+this.level.name() + "] : "+ message, LocalDateTime.now());
             this.displayMessage(log, logObservable);
         }
         if(this.nextLogProcessor != null){
