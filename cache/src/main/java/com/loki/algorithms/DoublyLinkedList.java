@@ -44,7 +44,7 @@ public class DoublyLinkedList<E> {
         return this.dummyHead.next;
     }
 
-    public DoublyLinkedListNode getLastNode(){
+    public DoublyLinkedListNode<E> getLastNode(){
         if(isEmpty()){
             return null;
         }

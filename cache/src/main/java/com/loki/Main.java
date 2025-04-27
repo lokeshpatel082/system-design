@@ -13,12 +13,12 @@ public class Main {
 
         EvictionPolicy<Integer> lruEvictionPolicy = new LRUEvictionPolicy<>();
         Storage<Integer, Integer> lruStorage = new HashMapBasedStorage<>(2);
-        Cache<Integer, Integer> cashe = new Cache<>(lruEvictionPolicy, lruStorage);
+        Cache<Integer, Integer> cache = new Cache<>(lruEvictionPolicy, lruStorage);
 
-        cashe.put(2,100);
-        cashe.put(1,600);
-        System.out.println(cashe.get(2));
-        cashe.put(4,90);
+        cache.put(2,100);
+        cache.put(1,600);
+        System.out.println(cache.get(2));
+        cache.put(4,90);
 
     }
 }

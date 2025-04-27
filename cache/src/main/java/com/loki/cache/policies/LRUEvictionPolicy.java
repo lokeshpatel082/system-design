@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LRUEvictionPolicy<K> implements EvictionPolicy<K>{
-    private DoublyLinkedList<K> dll;
-    private Map<K, DoublyLinkedListNode<K>> mapper;
+    private final DoublyLinkedList<K> dll;
+    private final Map<K, DoublyLinkedListNode<K>> mapper;
 
     public LRUEvictionPolicy(){
         this.dll = new DoublyLinkedList<>();
@@ -22,7 +22,7 @@ public class LRUEvictionPolicy<K> implements EvictionPolicy<K>{
             dll.addNodeAtFirst(mapper.get(key));
         }
         else{
-            DoublyLinkedListNode newNode = dll.addElementAtFirst(key);
+            DoublyLinkedListNode<K> newNode = dll.addElementAtFirst(key);
             mapper.put(key, newNode);
         }
     }
