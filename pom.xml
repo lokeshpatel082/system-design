@@ -9,6 +9,7 @@
     <module>task-scheduler</module>
     <module>cache</module>
     <module>logger</module>
+    <module>Parking lot</module>
   </modules>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
